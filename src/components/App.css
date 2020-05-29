@@ -1,0 +1,55 @@
+/* Styles go here */
+.primary-bg{
+    background-color: #392F5A;
+}
+
+.secondary-bg{
+    background-color: #FF7F11;
+}
+
+.primary-color{
+    color:#F5EADD;
+}
+
+html{font-size: 16px;}
+p{font-size:18px;}
+@media (min-width: 200px) {
+    html { font-size: 10px; }
+    p{font-size:12px;}
+}
+@media (min-width: 568px) {
+    html { font-size: 12px; }
+    p{font-size:14px;}
+}
+@media (min-width: 780px) {
+    html { font-size: 14px; }
+    p{font-size:16px;}
+}
+
+.menu-btn{
+    font-size: 2.5em;
+    width:30vw;
+    max-width: 400px;
+    background-color: #FF7F11;
+    border: none;
+    margin: 2px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #F5EADD;
+    outline: none;
+}
+
+.left-btn{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.right-btn{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.selected-btn{
+    border: 8px solid #F5EADD;
+    font-weight: bold;
+}
